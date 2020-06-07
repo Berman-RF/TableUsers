@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Built-By: sleg
+Build-Jdk: 13.0.3
+Created-By: Maven Integration for Eclipse
+

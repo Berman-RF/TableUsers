@@ -1,0 +1,5 @@
+utils/HibernateFactorySession.class
+models/User.class
+controllers/UserApp.class
+service/userRestService.class
+service/UsersJavaBean.class
