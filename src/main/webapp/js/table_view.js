@@ -16,6 +16,7 @@ class UsersTable extends React.Component{
 				<th>Second name</th>
 				<th>Year of birth (1970-2069)</th>
 				<th>Email</th>
+				<th>Delete User</th>
 				</tr>
 				</thead>
 				<tbody>
@@ -39,7 +40,9 @@ class UsersTable extends React.Component{
 								<td>
 								{user.email}
 								</td>
-								<td> <Button onClick = {this.props.removeUser} id_user = {user.id} variant="secondary" >Delete</Button></td>
+								<td>
+								<Button onClick = {this.props.removeUser} id_user = {user.id} variant="secondary" >Delete</Button>
+								</td>
 								</tr>
 						)
 					}

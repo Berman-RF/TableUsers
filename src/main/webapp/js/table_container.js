@@ -53,7 +53,7 @@ class TableContainer extends React.Component{
 	
 addUser = (user) => {
 		
-		console.log(user);
+		/*console.log(user);*/
 		let json = JSON.stringify(user);
 		/*console.log(json);*/
 		$.ajax({
@@ -63,12 +63,12 @@ addUser = (user) => {
 		    contentType:"application/json; charset=utf-8",
 			dataType: 'json',
 			success: function(user) {
-				console.log(user);
+				/*console.log(user);*/
 				this.setState({users:user});				
 			}.bind(this),
 			error: function(xhr, status, err){
 				console.error(status, err.toString());
-				console.log(JSON.stringify(user));
+				/*console.log(JSON.stringify(user));*/
 			
 			}
 		});

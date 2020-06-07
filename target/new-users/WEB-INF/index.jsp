@@ -1,12 +1,9 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	
-
-    
 </head>
 <body>
-	<h1>Hello this you user list</h1>
+	<h1>Hello, this is your user list</h1>
 	<div id='react'></div>
 
     <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script> 
@@ -28,5 +25,4 @@
     <script src="js/table_container.js" type="text/babel"></script>
     <script src="js/table.js" type="text/babel"></script>
 </body>
-
 </html>
